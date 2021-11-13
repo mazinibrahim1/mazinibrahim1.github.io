@@ -1,0 +1,25 @@
+<!DOCTYPE html><html>
+    <head>
+<title>web caluculator</title>
+<link rel="icon" href='download.png'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+    <div class="heading">caluculator</div>
+    
+
+    </div>
+    <form id="myform" onsubmit="return false;">
+         first no:<input type="number" id="fno">
+        second no:<input type="number" id ="sno">
+        <input type="button"  onclick="add()" value= '+'>
+        <input type="button"  onclick="sub()" value= '-'>
+        <input type="button"  onclick="multiply()" value= '*'>
+        <input type="button"  onclick="divide()" value= '/'>
+        </form>
+        <p id="answer"></p>
+        <script src="calucator.js"></script>
+</body>
+
+</html>
